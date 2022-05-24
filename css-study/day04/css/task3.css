@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    padding: 20px 42px;
+    border: 1px solid black;
+}
+
+div {
+    display: inline-block;
+    margin: 5px 2px;
+    text-align: center;
+    line-height: 50px;
+}
+#container {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#default {
+    border-color: #e6e7e7;
+}
+
+
+#default a{
+    color: #696b6d;
+}
+

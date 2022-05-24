@@ -1,0 +1,17 @@
+div {
+    display: grid;
+    justify-content: center;
+	align-items: center;
+}
+
+p {
+    width: 520px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 5px;
+    line-height: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}

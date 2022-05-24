@@ -1,0 +1,23 @@
+caption {
+    color: white;
+    background-color: black;
+}
+
+thead tr th {
+    color: white;
+    background-color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tbody tr th:first-child {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+tbody tr td:nth-child(3n) {
+    opacity: 0.5;
+}

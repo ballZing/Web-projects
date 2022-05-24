@@ -1,0 +1,24 @@
+@import url('https://fonts.font.im/css?family=Architects+Daughter');
+
+h2 {
+    writing-mode: vertical-rl;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+    overflow: hidden;
+    float: left;
+}
+
+p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.moby {
+    overflow: hidden;
+    white-space: nowrap;
+    border-top: 5px solid #04a9f3;
+    width: 80%;
+    height: 350px;
+    margin: auto;
+}

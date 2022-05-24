@@ -1,0 +1,64 @@
+#box {
+    height: 360px;
+    width: 740px;
+    background-color: #e2e1e0;
+}
+
+#sonbox1 {
+    display: inline;
+}
+
+#sonbox2 {
+    display: inline;
+}
+
+
+.son1 {
+    width: 140px;
+    height: 140px;
+    border-width: 5px;
+    border-color: #3daf7c;
+    float: left;
+    margin: 10px;
+}
+
+.son2 {
+    width: 110px;
+    height: 110px;
+    border-width: 20px;
+    border-color: #3daf7c;
+    float: left;
+    margin: 10px;
+}
+
+#one {
+    border-style: solid;
+}
+
+#two {
+    border-style: double;
+}
+
+#three {
+    border-style: dashed;
+}
+
+#four {
+    border-style: dotted;
+}
+
+#five {
+    border-style: groove;
+}
+
+#six {
+    border-style: ridge;
+}
+
+#seven {
+    border-style: inset;
+}
+
+#eight {
+    border-style: outset;
+}
