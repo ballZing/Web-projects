@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>以后都叫课，不叫天</title>
+</head>
+
+<body>
+    <ul>
+        <li>scope 可以取的值有哪些，它有什么作用？</li>
+        <dl>
+            <dd>这是一个枚举属性，定义了表头元素关联的单元格，可以有以下值：</dd>
+            <dd>
+                <ol>
+                    <li>row：表头关联一行中所有的单元格。</li>
+                    <li>col: 表头关联一列中所有的单元格。</li>
+                    <li>rowgroup:表头属于一个行组并与其中所有单元格相关联。这些单元格可以被放在表头的左侧或右侧，取决于 table 元素中 dir 属性的值 。</li>
+                    <li>colgroup: 表头属于一个列组并与其中所有单元格相关联。</li>
+                    <li>auto</li>
+                </ol>
+            </dd>
+
+        </dl>
+        <li>thead、tvody、tfoot有什么含义？应该在哪里使用它们？</li>
+        <dl>
+            <dd>thead：thead是指表格的头部，定义了一组定义表格的列头和行</dd>
+            <dd>tbody：表示表格的主体</dd>
+            <dd>tfoot：定义了一组表格中各列的汇总行。</dd>
+        </dl>
+        <li>表格标题用什么元素表示？</li>
+        <dl>
+            <dd>用caption标签表示</dd>
+        </dl>
+        <li>th, thead, tr有什么区别？</li>
+        <dl>
+            <dt>th:</dt>
+            <dd>th是指表格的表头，会以加粗的形式显示</dd>
+            <dt>thead:</dt>
+            <dd>thead是指表格的头部，级别比th大，定义了一组定义表格的列头和行</dd>
+            <dt>tr:</dt>
+            <dd>tr是表格的基础元素，他定义表格中的行，同一行中可以出现多个td和th</dd>
+        </dl>
+        <li>表格跨两行，跨两列应该怎么表示？</li>
+        <dl>
+            <dd>跨两行：rowspan=“2”</dd>
+            <dd>跨两列：colspan="2"</dd>
+        </dl>
+    </ul>
+</body>
+
+</html>

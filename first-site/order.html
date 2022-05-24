@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+</head>
+
+<body>
+    <section id="overlay">
+
+        <p id="logo">Order your milktea!</p>
+        <hr>
+
+        <form action="submission.html" method="post">
+
+            <label for="flavor">
+                <span>你想要什么口味的奶茶？</span>
+            </label>
+            <input type="text" id="flavor" name="flavor" required minlength="2" maxlength="10">
+            <hr>
+
+            <label for="num">
+                <span>你想要几杯？</span>
+            </label>
+            <input type="number" name="num" id="num" min="1" max="4" step="1">
+            <hr>
+
+            <label for="sugar">
+                <span>你需要的糖分量</span>
+            </label><br>
+            <span>无糖</span><input type="range" name="sugar" id="sugar" min="1" max="5" step="1"><span>全糖</span>
+            <hr>
+
+            <label>你想要什么顶料</label><br>
+            <input type="checkbox" name="source" value="ice-cream" id="ice-cream">
+            <label for="ice-cream">冰淇淋</label>
+            <input type="checkbox" name="source" value="dairy-cover" id="dairy-cover">
+            <label for="dairy-cover">奶盖</label>
+            <input type="checkbox" name="source" value="cocoa-powder" id="cocoa-powder">
+            <label for="cocoa-powder">可可粉</label>
+            <hr>
+
+            <label>你需要加冰吗？</label><br>
+            <input type="radio" name="ice" value="yes" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="ice" value="no" id="no">
+            <label for="no">No</label>
+            <hr>
+
+            <label for="additional">你需要加什么料</label>
+            <select name="additional" id="additional">
+                <option value="pearl">珍珠</option>
+                <option value="booba">波霸</option>
+                <option value="pudding">布丁</option>
+            </select>
+            <hr>
+
+            <label for="size">你要什么规格</label>
+            <input type="text" name="size" id="size" list="size_list">
+            <datalist id="size_list">
+               <option value="small">小杯</option>
+               <option value="middle">中杯</option>
+               <option value="large">大杯</option> 
+            </datalist>
+            <hr>
+
+            <label for="reqirement">您还有别的什么要求吗</label><br>
+            <textarea name="reqirement" id="reqirement" cols="50" rows="3"></textarea>
+            <hr>
+
+            <label for="tel">您的联系方式</label>
+            <input type="text" id="tel" name="tel" required pattern="/^1\d{10}$/">
+            <hr>
+
+            <button type="submit" >Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
