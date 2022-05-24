@@ -1,7 +1,9 @@
 a {
+    display: block;
     text-decoration: none;
-    padding: 20px 42px;
     border: 1px solid black;
+    width: 140px;
+    height: 50px;
 }
 
 div {
@@ -10,6 +12,7 @@ div {
     text-align: center;
     line-height: 50px;
 }
+
 #container {
     width: 300px;
     height: 400px;
@@ -17,12 +20,50 @@ div {
     margin: 0 auto;
 }
 
-#default {
+#default a {
+    color: #696b6d;
     border-color: #e6e7e7;
+    border-radius: 5px;
 }
 
 
-#default a{
-    color: #696b6d;
+#default a:hover {
+    background-color: #e6e7e7;
+}
+
+#default a:active {
+    background-color: #807f7f;
+}
+
+#danger a {
+    color: red;
+    border-color: #ed5766;
+    border-radius: 5px;
+}
+
+#danger a:hover {
+    color: white;
+    background-color: #ed5766;
+}
+
+#danger a:active {
+    color: white;
+    background-color: #ee4556;
+}
+
+#primary a {
+    color: #1fb393;
+    border-color: #1fb393;
+    border-radius: 50% 50%;
+}
+
+#primary a:hover {
+    color: white;
+    background-color: #1fb393;
+}
+
+#primary a:active {
+    color: white;
+    background-color: #16aa8a;
 }
 
